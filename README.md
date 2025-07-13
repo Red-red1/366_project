@@ -47,11 +47,7 @@ The dataset contains a total of **50,000 images**, split into **26,950 raw image
 
 ## 🧠 Models Used
 
-- ✅ ResNet-50, ResNet-152
-- ✅ VGG-19
-- ✅ GoogLeNet (Inception v1)
-- ✅ MobileNetV3-Large
-- ✅ EfficientNet-B0
+- ✅ ResNet-50
 
 All models were fine-tuned using **ImageNet pre-trained weights** and modified to output predictions for **20 classes**.
 
