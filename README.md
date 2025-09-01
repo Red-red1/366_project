@@ -14,7 +14,7 @@ The dataset contains a total of **50,000 images**, split into **26,950 raw image
 - 📂 **Main Folder after extraction**: `Fish Data/`
 - 📄 Each subfolder = 1 fish species
 
-> 💡 No preprocessing or normalization was applied to the raw dataset prior to training.
+> 💡 No preprocessing or normalization was applied to the raw dataset before training.
 
 ---
 
@@ -47,7 +47,13 @@ The dataset contains a total of **50,000 images**, split into **26,950 raw image
 
 ## 🧠 Models Used
 
+Pretrained-
 - ✅ ResNet-50
+- ✅ VGG-19
+- ✅ Efficient Net B3
+- ✅ GoogleNet
+     AND
+- ✅ Custom CNN
 
 All models were fine-tuned using **ImageNet pre-trained weights** and modified to output predictions for **20 classes**.
 
