@@ -52,7 +52,9 @@ Pretrained-
 - ✅ VGG-19
 - ✅ Efficient Net B3
 - ✅ GoogleNet
-     AND
+
+  AND
+  
 - ✅ Custom CNN
 
 All models were fine-tuned using **ImageNet pre-trained weights** and modified to output predictions for **20 classes**.
